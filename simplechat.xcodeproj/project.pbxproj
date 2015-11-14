@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		9E6553DE1BF4BB96006F4AB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6553DD1BF4BB96006F4AB4 /* main.m */; };
 		9E6553E11BF4BB96006F4AB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6553E01BF4BB96006F4AB4 /* AppDelegate.m */; };
-		9E6553E41BF4BB96006F4AB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6553E31BF4BB96006F4AB4 /* ViewController.m */; };
-		9E6553E71BF4BB96006F4AB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6553E51BF4BB96006F4AB4 /* Main.storyboard */; };
-		9E6553E91BF4BB96006F4AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6553E81BF4BB96006F4AB4 /* Assets.xcassets */; };
-		9E6553EC1BF4BB96006F4AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6553EA1BF4BB96006F4AB4 /* LaunchScreen.storyboard */; };
+		9E6553E41BF4BB96006F4AB4 /* ChannelsTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6553E31BF4BB96006F4AB4 /* ChannelsTableVC.m */; };
 		9E6553F71BF4BB96006F4AB4 /* simplechatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6553F61BF4BB96006F4AB4 /* simplechatTests.m */; };
+		9E65540B1BF73F0B006F4AB4 /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E65540A1BF73F0B006F4AB4 /* Channel.m */; };
+		9E65540C1BF73F0B006F4AB4 /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E65540A1BF73F0B006F4AB4 /* Channel.m */; };
+		9E65540F1BF73F42006F4AB4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E65540E1BF73F42006F4AB4 /* User.m */; };
+		9E6554101BF73F42006F4AB4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E65540E1BF73F42006F4AB4 /* User.m */; };
+		9E6554131BF73F57006F4AB4 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6554121BF73F57006F4AB4 /* Message.m */; };
+		9E6554141BF73F57006F4AB4 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6554121BF73F57006F4AB4 /* Message.m */; };
+		9E6554181BF741B6006F4AB4 /* ChatTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6554161BF741B6006F4AB4 /* ChatTableVC.m */; };
+		9E6554191BF741B6006F4AB4 /* ChatTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6554161BF741B6006F4AB4 /* ChatTableVC.m */; };
+		9E65541E1BF74775006F4AB4 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E65541D1BF74775006F4AB4 /* MessageTableViewCell.m */; };
+		9E65541F1BF74775006F4AB4 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E65541D1BF74775006F4AB4 /* MessageTableViewCell.m */; };
+		9E6554221BF747A5006F4AB4 /* ChannelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6554211BF747A5006F4AB4 /* ChannelTableViewCell.m */; };
+		9E6554231BF747A5006F4AB4 /* ChannelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6554211BF747A5006F4AB4 /* ChannelTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +40,24 @@
 		9E6553DD1BF4BB96006F4AB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E6553DF1BF4BB96006F4AB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E6553E01BF4BB96006F4AB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9E6553E21BF4BB96006F4AB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9E6553E31BF4BB96006F4AB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9E6553E61BF4BB96006F4AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E6553E81BF4BB96006F4AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9E6553EB1BF4BB96006F4AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E6553E21BF4BB96006F4AB4 /* ChannelsTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelsTableVC.h; sourceTree = "<group>"; };
+		9E6553E31BF4BB96006F4AB4 /* ChannelsTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableVC.m; sourceTree = "<group>"; };
 		9E6553ED1BF4BB96006F4AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E6553F21BF4BB96006F4AB4 /* simplechatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simplechatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6553F61BF4BB96006F4AB4 /* simplechatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simplechatTests.m; sourceTree = "<group>"; };
 		9E6553F81BF4BB96006F4AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E6554091BF73F0B006F4AB4 /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		9E65540A1BF73F0B006F4AB4 /* Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
+		9E65540D1BF73F42006F4AB4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		9E65540E1BF73F42006F4AB4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		9E6554111BF73F57006F4AB4 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		9E6554121BF73F57006F4AB4 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		9E6554151BF741B6006F4AB4 /* ChatTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableVC.h; sourceTree = "<group>"; };
+		9E6554161BF741B6006F4AB4 /* ChatTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableVC.m; sourceTree = "<group>"; };
+		9E65541C1BF74775006F4AB4 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		9E65541D1BF74775006F4AB4 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		9E6554201BF747A5006F4AB4 /* ChannelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelTableViewCell.h; sourceTree = "<group>"; };
+		9E6554211BF747A5006F4AB4 /* ChannelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,15 +99,13 @@
 		9E6553DB1BF4BB96006F4AB4 /* simplechat */ = {
 			isa = PBXGroup;
 			children = (
+				9E6554081BF73B24006F4AB4 /* Helpers */,
+				9E6554071BF73B17006F4AB4 /* UI */,
+				9E6554061BF73B10006F4AB4 /* Model */,
+				9E6554051BF73B03006F4AB4 /* VC */,
+				9E6553DC1BF4BB96006F4AB4 /* Supporting Files */,
 				9E6553DF1BF4BB96006F4AB4 /* AppDelegate.h */,
 				9E6553E01BF4BB96006F4AB4 /* AppDelegate.m */,
-				9E6553E21BF4BB96006F4AB4 /* ViewController.h */,
-				9E6553E31BF4BB96006F4AB4 /* ViewController.m */,
-				9E6553E51BF4BB96006F4AB4 /* Main.storyboard */,
-				9E6553E81BF4BB96006F4AB4 /* Assets.xcassets */,
-				9E6553EA1BF4BB96006F4AB4 /* LaunchScreen.storyboard */,
-				9E6553ED1BF4BB96006F4AB4 /* Info.plist */,
-				9E6553DC1BF4BB96006F4AB4 /* Supporting Files */,
 			);
 			path = simplechat;
 			sourceTree = "<group>";
@@ -97,6 +113,7 @@
 		9E6553DC1BF4BB96006F4AB4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E6553ED1BF4BB96006F4AB4 /* Info.plist */,
 				9E6553DD1BF4BB96006F4AB4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -109,6 +126,48 @@
 				9E6553F81BF4BB96006F4AB4 /* Info.plist */,
 			);
 			path = simplechatTests;
+			sourceTree = "<group>";
+		};
+		9E6554051BF73B03006F4AB4 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9E6553E21BF4BB96006F4AB4 /* ChannelsTableVC.h */,
+				9E6553E31BF4BB96006F4AB4 /* ChannelsTableVC.m */,
+				9E6554151BF741B6006F4AB4 /* ChatTableVC.h */,
+				9E6554161BF741B6006F4AB4 /* ChatTableVC.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		9E6554061BF73B10006F4AB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E6554091BF73F0B006F4AB4 /* Channel.h */,
+				9E65540A1BF73F0B006F4AB4 /* Channel.m */,
+				9E65540D1BF73F42006F4AB4 /* User.h */,
+				9E65540E1BF73F42006F4AB4 /* User.m */,
+				9E6554111BF73F57006F4AB4 /* Message.h */,
+				9E6554121BF73F57006F4AB4 /* Message.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9E6554071BF73B17006F4AB4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9E65541C1BF74775006F4AB4 /* MessageTableViewCell.h */,
+				9E65541D1BF74775006F4AB4 /* MessageTableViewCell.m */,
+				9E6554201BF747A5006F4AB4 /* ChannelTableViewCell.h */,
+				9E6554211BF747A5006F4AB4 /* ChannelTableViewCell.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		9E6554081BF73B24006F4AB4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +250,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E6553EC1BF4BB96006F4AB4 /* LaunchScreen.storyboard in Resources */,
-				9E6553E91BF4BB96006F4AB4 /* Assets.xcassets in Resources */,
-				9E6553E71BF4BB96006F4AB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +267,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E6553E41BF4BB96006F4AB4 /* ViewController.m in Sources */,
+				9E65540F1BF73F42006F4AB4 /* User.m in Sources */,
+				9E65541E1BF74775006F4AB4 /* MessageTableViewCell.m in Sources */,
+				9E6554131BF73F57006F4AB4 /* Message.m in Sources */,
+				9E6553E41BF4BB96006F4AB4 /* ChannelsTableVC.m in Sources */,
+				9E6554221BF747A5006F4AB4 /* ChannelTableViewCell.m in Sources */,
+				9E65540B1BF73F0B006F4AB4 /* Channel.m in Sources */,
 				9E6553E11BF4BB96006F4AB4 /* AppDelegate.m in Sources */,
+				9E6554181BF741B6006F4AB4 /* ChatTableVC.m in Sources */,
 				9E6553DE1BF4BB96006F4AB4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +284,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E6553F71BF4BB96006F4AB4 /* simplechatTests.m in Sources */,
+				9E6554191BF741B6006F4AB4 /* ChatTableVC.m in Sources */,
+				9E6554141BF73F57006F4AB4 /* Message.m in Sources */,
+				9E65540C1BF73F0B006F4AB4 /* Channel.m in Sources */,
+				9E6554101BF73F42006F4AB4 /* User.m in Sources */,
+				9E65541F1BF74775006F4AB4 /* MessageTableViewCell.m in Sources */,
+				9E6554231BF747A5006F4AB4 /* ChannelTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +302,6 @@
 			targetProxy = 9E6553F31BF4BB96006F4AB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9E6553E51BF4BB96006F4AB4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E6553E61BF4BB96006F4AB4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9E6553EA1BF4BB96006F4AB4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E6553EB1BF4BB96006F4AB4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9E6553F91BF4BB96006F4AB4 /* Debug */ = {
@@ -338,7 +387,6 @@
 		9E6553FC1BF4BB96006F4AB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = simplechat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = home.simplechat;
@@ -349,7 +397,6 @@
 		9E6553FD1BF4BB96006F4AB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = simplechat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = home.simplechat;
