@@ -20,14 +20,17 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - MBProgressHUD (0.9.1)
   - NSDate+TimeAgo (1.0.3)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
+  - MBProgressHUD (~> 0.9.1)
   - NSDate+TimeAgo
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   NSDate+TimeAgo: 416f55d2696d3744c313091c5a9280d47f8238fe
 
 COCOAPODS: 0.39.0

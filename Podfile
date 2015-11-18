@@ -7,6 +7,7 @@ target 'simplechat' do
     platform :ios, '7.0'
     pod 'AFNetworking', '~> 2.5'
     pod 'NSDate+TimeAgo'
+    pod 'MBProgressHUD', '~> 0.9.1'
 end
 
 target 'simplechatTests' do

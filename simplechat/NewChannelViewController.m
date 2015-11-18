@@ -74,7 +74,7 @@
   
   NSDictionary *views = NSDictionaryOfVariableBindings(_infoLabel, _nameTextField, _addButton, top);
   
-  NSString *vertical = @"V:[top]-[_infoLabel]-[_nameTextField]-[_addButton]";
+  NSString *vertical = @"V:[top]-[_infoLabel]-[_nameTextField(_addButton)]-[_addButton]";
   [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:vertical options:0 metrics:nil views:views]];
   
   [self.view addConstraint:[NSLayoutConstraint constraintWithItem:_infoLabel

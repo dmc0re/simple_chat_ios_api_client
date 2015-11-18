@@ -6,7 +6,7 @@
 #import "User.h"
 #import "PaginationData.h"
 
-const NSString *TARGET_URL = @"http://192.168.0.88:3000/api/v1";
+static NSString *TARGET_URL = @"https://simplechad.herokuapp.com/api/v1";
 
 static HTTPResourcesManager *instance = nil;
 

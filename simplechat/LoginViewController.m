@@ -2,6 +2,7 @@
 #import "RegisterViewController.h"
 #import "ChannelsTableViewController.h"
 #import "HTTPResourcesManager.h"
+#import "MBProgressHUD.h"
 
 @interface LoginViewController ()
 
@@ -154,6 +155,8 @@
 
 -(void)enterButtonTapped
 {
+  [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+  
   _enterButton.enabled = NO;
   _registerButton.enabled = NO;
   
@@ -162,6 +165,8 @@
                      andPassword:_passwordTextField.text
                   withCompletion:^(User *user, NSInteger httpStatusCode)
    {
+     [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+
      _registerButton.enabled = YES;
      [self textFieldDidChange];
      

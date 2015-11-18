@@ -170,12 +170,16 @@
 
 -(void)registrationProc
 {
+  _registerButton.enabled = NO;
+  
   HTTPResourcesManager *manager = [HTTPResourcesManager manager];
   [manager createUserWithEmail:_emailTextField.text
                        andName:_nameTextField.text
                    andPassword:_passwordTextField.text
                 withCompletion:^(User *user, NSInteger httpStatusCode)
   {
+    _registerButton.enabled = YES;
+    
     switch (httpStatusCode) {
       case 201:
       {
