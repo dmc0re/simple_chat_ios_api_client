@@ -228,7 +228,7 @@ static HTTPResourcesManager *instance = nil;
 
 -(void)showAlerViewForError:(NSError *)error
 {
-  if (error.code == -1004)
+  if (error.code == -1004 || error.code == -1009)
   {
     [[[UIAlertView alloc] initWithTitle:@"Ошибка!"
                                 message:@"Сервер не доступен.\nПроверьте соединение с интернетом."
