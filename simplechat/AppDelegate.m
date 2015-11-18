@@ -1,5 +1,5 @@
 #import "AppDelegate.h"
-#import "ChannelsTableVC.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -12,7 +12,7 @@
   
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   
-  ChannelsViewController *mainViewController = [ChannelsViewController new];
+  LoginViewController *mainViewController = [LoginViewController new];
   
   UINavigationController *navController = [[UINavigationController alloc]
                                            initWithRootViewController:mainViewController];
